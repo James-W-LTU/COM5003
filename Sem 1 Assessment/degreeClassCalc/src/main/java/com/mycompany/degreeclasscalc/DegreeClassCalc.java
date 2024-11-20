@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.degreeclasscalc;
-
+import java.util.Scanner;
 /**
  *
  * @author jameswoodthorpe
@@ -11,6 +11,8 @@ package com.mycompany.degreeclasscalc;
 public class DegreeClassCalc {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter your overall percentage: ");
     }
 }
