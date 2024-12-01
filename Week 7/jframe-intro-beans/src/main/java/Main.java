@@ -8,5 +8,14 @@
  * @author jameswoodthorpe
  */
 public class Main {
+    private String accountName;
+    private String accountNumber;
+    private double accountBalance;
     
+    public BankAccount(String name, String number, double balance) {
+        this.accountName = name;
+        this.accountNumber = number;
+        this.accountBalance = balance;
+   
+    }
 }

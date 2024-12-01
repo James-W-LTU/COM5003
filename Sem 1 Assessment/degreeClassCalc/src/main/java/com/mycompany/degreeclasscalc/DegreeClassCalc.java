@@ -16,3 +16,4 @@ public class DegreeClassCalc {
         System.out.print("Enter your overall percentage: ");
     }
 }
+
