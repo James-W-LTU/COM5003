@@ -1,3 +1,5 @@
+import jdk.jshell.execution.LocalExecutionControl;
+
 import java.time.LocalDateTime;
 
 class FoodItem {
@@ -68,4 +70,44 @@ class FoodItem {
     class CannedFood extends FoodItem {
         private LocalDateTime useBefore;
         private boolean eatRaw;
+        private boolean pullTab;
+
+        public CannedFood(int itemId, String itemName, LocalDateTime useBefore, boolean eatRaw, boolean pullTab) {
+            super(itemId, itemName);
+            this.useBefore = useBefore;
+            this.eatRaw = eatRaw;
+            this.pullTab = pullTab;
+        }
+        public LocalDateTime getUseBefore() {
+            return useBefore;
+        }
+        public boolean getEatRaw() {
+            return eatRaw;
+        }
+        public boolean getPullTab() {
+            return pullTab;
+        }
+    }
+
+    class DryFood extends FoodItem {
+        private LocalDateTime useBefore;
+        private boolean eatRaw;
+        private int weight;
+
+
+        public DryFood(int itemId, String itemName, LocalDateTime useBefore, boolean eatRaw, int weight) {
+            super(itemId, itemName);
+            this.useBefore = useBefore;
+            this.eatRaw = eatRaw;
+            this.weight = weight;
+        }
+        public LocalDateTime getUseBefore() {
+            return useBefore;
+        }
+        public boolean getEatRaw() {
+            return eatRaw;
+        }
+        public int getWeight() {
+            return weight;
+        }
     }
