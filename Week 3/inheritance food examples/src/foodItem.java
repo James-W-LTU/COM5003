@@ -28,7 +28,6 @@ class FoodItem {
             this.eatRaw = eatRaw;
             this.storage = storage;
         }
-
         public LocalDateTime getBBE() {
             return bbe;
         }
