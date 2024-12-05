@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
-package com.mycompany.degreeclasscalc;
-import java.util.Scanner;
 /**
  *
  * @author jameswoodthorpe
  */
+
+package com.mycompany.degreeclasscalc;
+import java.util.Scanner;
+
 public class DegreeClassCalc {
 
     public static void main(String[] args) {
