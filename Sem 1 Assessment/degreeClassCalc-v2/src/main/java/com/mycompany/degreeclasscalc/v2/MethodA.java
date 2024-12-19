@@ -1,4 +1,4 @@
-package main.java;
+package com.mycompany.degreeclasscalc.v2;
 
 import java.util.Scanner;
 
